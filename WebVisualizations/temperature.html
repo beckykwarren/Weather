@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>title</title>
+    <title>temperature</title>
   </head>
 
   <body>
@@ -25,11 +25,11 @@
                                         Visualisations
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="temperature.html">Temperature</a>
-                                        <a class="dropdown-item" href="humidity.html">Humidity</a>
-                                        <a class="dropdown-item" href="windspeed.html">Windspeed</a>
-                                        <a class="dropdown-item" href="cloud.html">Cloudiness</a>
-                                    </div>
+                                            <a class="dropdown-item" href="temperature.html">Temperature</a>
+                                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                            <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+                                            <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                                        </div>
                                 </li>
                                 <li class="nav-item">
                                 <a class="nav-link" href="#">Comparisons</a>
@@ -43,14 +43,18 @@
                 </nav>
             </div>
         </div>
+        
+        
+        
         <div class="row">
             
                 <div class="col-md-7">
                     <section id="main-1">
-                        <h2>Summary</h2>
+                        <h2>Temperature</h2>
                         <hr>
+                        <img src="Resources/TemperatureInWorldCities.png" alt="..." class="figure-img img-fluid" alt="Responsive image">
+                        <p>From the scatter plot we can see that there is a clear trend of cooler temperatures towards the poles and warmer temeperatures towards the equator. There appears to be a skew towards the north. This may be due to the seasonal change. Though it is autumn in the northern hemisphere the temperatures often lag behind the astronomical seasons. The city with the highest temperature is Medina which has a latitude of 24.47 and the temperature was recorded as 104 F.</p>
                         
-                        <p>The data in this report was taken from 559 cities samples from the data set of cities found at <a href = "https://simplemaps.com/data/world-cities" target="_blank">simplemaps.com</a>. The current weather was found using the API at <a href = "https://openweathermap.org/" target="_blank">openweathermap.org</a>. The graphs show trends in the weather compared to the latitude.  </p>
                     </section>
                 </div>
 
@@ -97,12 +101,20 @@
                                                 <a href="cloud.html">
                                                     <img src="Resources/CloudinessInWorldCities.png" alt="..." class="figure-img img-fluid" alt="Responsive image">
                                                     <figcaption class="figure-caption text-center">
-                                                        Cloudiness
+                                                        Cloud
                                                     </figcaption>
                                                 </a>
                                             </figure>
                                     </div>
                             </div>
+
+
+    
+                                 
+
+
+
+
                         </section>
                 </div>
         </div>
