@@ -87,7 +87,11 @@ body {
     background-color: #40798C;
 
   }
-  
+  .dropdown-menu > li > a:hover {
+    background-color: #D1C8B8;
+    background-image: none;
+}
+
   td {
     color: #0B2027;
     
