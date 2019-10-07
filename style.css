@@ -78,12 +78,31 @@ body {
   #navbar-brand {
     color: #40798C;
   }
+
+  .navbar {
+    min-height: 67px;
+  }
   
   #dropdown-item {
     background-color: #40798C;
 
   }
   
+  td {
+    color: #0B2027;
+    
+  }
+  th {
+    background-color: #40798C;
+    color: white;
+  }
+  tr:nth-child(even) {background-color: #EDE7DC;}
+  th, td {
+    padding: 5px;
+    text-align: left;
+    
+  }
+  tr:hover {background-color: #CE636D;}
 
   /* Selecting elements by ID */
   #main-bio,
