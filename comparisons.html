@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Cloud Cover Analysis</title>
+    <title>Comparisons</title>
   </head>
 
   <body>
@@ -32,7 +32,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="comparisons.html">Comparisons</a>
+                                <a class="nav-link" href="#">Comparisons</a>
                                 </li>
                                 <li class="nav-item">
                                 <a class="nav-link" href="data.html">Data</a>
@@ -45,73 +45,50 @@
         </div>
         <div class="row">
             
-                <div class="col-md-7">
-                    <section id="main-1">
-                        <h2>Cloudiness</h2>
-                        <hr>
-                        <img src="Resources/CloudinessInWorldCities.png" alt="..." class="figure-img img-fluid" alt="Responsive image">
-                        <p>The data appears to be clustered here however it is important to note that some of this is due to the measuring techniques. in some regions the cloudiness is measured in oktas or eighths of the sky. This means that some measurements are more likely for example the cluster at 87.5% and 75%. It is notable that there are very few places at the equator with zero cloud. Most places with zero cloud have a latitude of around -20 or between 20 and 60.</p>
-                        
-                    </section>
-                </div>
+                <div class="col-12">
+                        <section id="main-3">
 
-
-
-                <div class="col-12 col-md-5">
-                        <section id="main-2">
-
-                                <h2>Visualisations</h2>
+                                <h2>Comparisons</h2>
                                 <hr>
+                                <p>Click on any plot to get in-depth analysis.</p>
+
                             <div class="row">
-                                    <div class = "col-6 col-sm-3 col-md-12 col-lg-6">
+                                    <div class = "col-12 col-sm-6 col-lg-3">
                                         <figure class="text-center">
+                                                <h3>Latitude vs. Temperature</h3>
                                                 <a href="temperature.html">
                                                     <img src="Resources/TemperatureInWorldCities.png" alt="..." class="figure-img img-fluid " alt="Responsive image">
-                                                    <figcaption class="figure-caption text-center ">
-                                                        Temperature
-                                                    </figcaption>
                                                 </a>
                                         </figure>
                                     </div>
-                                    <div class = "col-6 col-sm-3 col-md-12 col-lg-6"> 
-                                        <figure class="text-center">                               <figure class="text-center">
-                                            <a href="humidity.html">
-                                                <img src="Resources/HumidityInWorldCities.png" alt="..." class="figure-img img-fluid " alt="Responsive image">
-                                                <figcaption class="figure-caption text-center">
-                                                    Humidity
-                                                </figcaption>
-                                            </a>
+                                    <div class = "col-12 col-sm-6 col-lg-3"> 
+                                        <figure class="text-center"> 
+                                                <h3>Latitude vs. Humidity</h3>
+                                                <a href="humidity.html">
+                                                    <img src="Resources/HumidityInWorldCities.png" alt="..." class="figure-img img-fluid " alt="Responsive image">
+                                                    
+                                                </a>
                                         </figure> 
                                     </div>
-                                    <div class = "col-6 col-sm-3 col-md-12 col-lg-6">  
-                                        <figure class="text-center">                               <figure class="text-center">
-                                            <a href="windspeed.html">
-                                                <img src="Resources/WindInWorldCities.png" alt="..." class="figure-img img-fluid " alt="Responsive image">
-                                                <figcaption class="figure-caption text-center">
-                                                    Windspeed
-                                                </figcaption>
-                                            </a>
+                                    <div class = "col-12 col-sm-6 col-lg-3">  
+                                        <figure class="text-center">   
+                                                <h3>Latitude vs. Windspeed</h3>
+                                                <a href="windspeed.html">
+                                                    <img src="Resources/WindInWorldCities.png" alt="..." class="figure-img img-fluid " alt="Responsive image">
+                                                    
+                                                </a>
                                         </figure>
                                     </div>
-                                    <div class = "col-6 col-sm-3 col-md-12 col-lg-6">
+                                    <div class = "col-12 col-sm-6 col-lg-3">
                                             <figure class="text-center">
+                                                <h3>Latitude vs. Cloudiness</h3>
                                                 <a href="cloud.html">
                                                     <img src="Resources/CloudinessInWorldCities.png" alt="..." class="figure-img img-fluid" alt="Responsive image">
-                                                    <figcaption class="figure-caption text-center">
-                                                        Cloud
-                                                    </figcaption>
+                                                    
                                                 </a>
                                             </figure>
                                     </div>
                             </div>
-
-
-    
-                                 
-
-
-
-
                         </section>
                 </div>
         </div>

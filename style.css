@@ -136,6 +136,10 @@ body {
     padding: 10px 10px 10px 10px;
     background: #D1C8B8;
   }
+  #main-3 {
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+  }  
   
   #contact-info {
     position: absolute;
