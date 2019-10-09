@@ -70,11 +70,16 @@ body {
     background-color: #40798C;
 
   }
-  .dropdown-menu > li > a:hover {
-    background-color: #D1C8B8;
-    background-image: none;
-}
+  .dropdown-item.hover, .dropdown-item:hover {
+    text-decoration: none;
+    background-color: #EDE7DC;
+  }
 
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #CE636D;
+}
 table {
   border: 0px solid #0B2027;
   padding: 8px 8px;
