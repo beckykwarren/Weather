@@ -44,7 +44,7 @@ body {
     color: #CE636D;
   }
   
-  p.one {
+  #emphasise {
     border: 2px solid #CE636D;
     border-radius: 5px;
   }
